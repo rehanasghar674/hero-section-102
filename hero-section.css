@@ -1,0 +1,209 @@
+    @charset "utf-8";
+   
+    * 
+    {
+        padding: 0; 
+        margin: 0; 
+        box-sizing: border-box; 
+        font-family: sans-serif;
+    } 
+
+    body 
+    {
+        background-image: url("../../pages/images/background.jpg"); 
+        background-size: cover;    
+    }
+
+    :root 
+    {
+        --white-color: white; 
+        --d-flex: flex; 
+        --j-content: space-between; 
+        --none: none;
+    } 
+
+    .nav-div 
+    {
+        display: var(--d-flex); 
+        justify-content: var(--j-content);
+    }
+
+    .sparkwell 
+    {
+       color: var(--white-color); 
+       margin: 22px 50px;
+    } 
+
+    ul 
+    { 
+        outline: var(--none);
+        border: var(--none);
+        list-style: var(--none); 
+        display: var(--d-flex); 
+        gap: 24px;  
+        box-shadow: 0px 0px 1px #999;  
+        padding: 15px; 
+        border-radius: 20px; 
+        margin-top: 6px;
+    } 
+
+    .menu-div ul li a 
+    {
+        text-decoration: var(--none); 
+        color: var(--white-color); 
+        font-size: 15px; 
+        opacity: 0.9;
+    } 
+
+    nav 
+    {
+        margin-top: 25px;
+    } 
+
+    .back-button button
+    { 
+        background-color: transparent; 
+        color: var(--white-color); 
+        opacity: 0.9; 
+        border: var(--none);  
+        box-shadow: 0px 0px 3px #ddd; 
+        border-radius: 20px; 
+        padding: 8px 16px; 
+        margin: 11px 52px;
+    } 
+
+     .back-button button i  
+     {
+        font-size: 18px;
+     } 
+
+     .content1 button 
+     { 
+        margin-top: 10px;
+        margin-bottom: 28px; 
+        border: var(--none); 
+        background-color: #241918;
+        border: 1px solid transparent; 
+        padding: 6px 14px; 
+        border-radius: 20px; 
+     } 
+
+     .content1 button p 
+     {
+        color: #B0A4A4;
+     }
+
+     .content2 h1 
+     {
+        color: var(--white-color); 
+        margin-top: 15px; 
+        text-align: center; 
+        margin-bottom: 23px; 
+        line-height: 40px;
+     } 
+
+     .content3 p 
+     {
+        color: var(--white-color); 
+        text-align: center; 
+        opacity: 0.9; 
+        margin-bottom: 20px; 
+        line-height: 25px;
+     } 
+
+     .section-div 
+     {
+        display: var(--d-flex); 
+        flex-direction: column; 
+        align-items: center; 
+        justify-content: center; 
+        height: 50vh; 
+        margin-top: 40px;
+     } 
+
+     .content4 button 
+     { 
+        border: var(--none); 
+        background-color: #ba4801; 
+        color: #ccc;
+        border: 1px solid transparent; 
+        padding: 6px 14px; 
+        border-radius: 25px; 
+        padding: 10px 15px;
+     } 
+
+     .content4 button i 
+     {  
+        font-size: 20px; 
+     } 
+
+     .rating-div 
+     {
+        display: var(--d-flex); 
+        justify-content: center; 
+        margin-top: 52px; 
+        gap: 35px; 
+        margin-bottom: 15px;
+     }
+
+     .growth-div h2 
+     {
+        color: var(--white-color); 
+        text-align: center; 
+        margin-bottom: 6px; 
+     } 
+
+     .growth-div p 
+     {
+        color: var(--white-color); 
+        font-size: 15px;
+     } 
+
+     .brand-div2 h2 
+     {
+        color: var(--white-color); 
+        text-align: center; 
+        margin-bottom: 6px;
+     } 
+
+     .brand-div2 p 
+     {
+        color: var(--white-color); 
+        font-size: 15px; 
+     } 
+
+     .footer-div 
+     {
+        width: 23%; 
+        border-bottom: 1.5px solid #ddd; 
+        margin: 0 auto;
+     } 
+
+     @media (width >= 320px) and (width <= 375px) 
+     {
+        .nav-div 
+        { 
+           display: flex;
+           flex-direction: column; 
+        } 
+        .sparkwell 
+        {
+           margin: 3px 25px;
+        } 
+
+        .menu-div ul
+        {
+           display: flex; 
+           flex-direction: column; 
+           box-shadow: none; 
+           align-items: flex-end; 
+           margin-top: -40px; 
+           margin-right: 10px;
+        } 
+
+        .back-button 
+        {
+           margin-top: -130px; 
+        }
+     } 
+
