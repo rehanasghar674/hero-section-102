@@ -10,7 +10,7 @@
 
     body 
     {
-        background-image: url("../../pages/images/background.jpg"); 
+        background-image: url("background.jpg"); 
         background-size: cover;    
     }
 
@@ -206,4 +206,5 @@
            margin-top: -130px; 
         }
      } 
+
 
